@@ -37,6 +37,8 @@ def print_info(sum_list):
     print("Покупка. Магазин -> склад Китай: ", sum_list[0] + sum_list[1])
     print("Обработка. Склад Китай", sum(sum_list[2:5]))
     print("Доставка. Склад Китай - Склад РФ", )
+    print("Доставка. Склад Китай - Склад РФ", )
+
 
 
 def calculate_delivery(product, quantity, dict, carrier):
